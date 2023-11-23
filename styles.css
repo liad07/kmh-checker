@@ -1,0 +1,23 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.speedometer-container {
+  text-align: center;
+}
+
+.speedometer {
+  font-size: 3em;
+  display: inline-block;
+  border: 2px solid #333;
+  padding: 10px;
+}
+
+.unit {
+  font-size: 0.5em;
+  margin-top: -10px;
+}
